@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from "react-bootstrap/Card"
-import imgBackground from "../Assets/pc2.png"
-import Type from "./Type.js"
+import imgBackground from "../../Assets/pc2.png"
+import Type from "../Type.js"
 
 
 

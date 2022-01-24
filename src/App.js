@@ -4,9 +4,9 @@ import {
   Route,
   // Link
 } from 'react-router-dom'
-import About from './Components/pages/About'
-import Contact from './Components/pages/Contact'
-import Portfolio from './Components/pages/Portfolio'
+import About from './Components/About/About'
+import Contact from './Components/Contact/Contact'
+import Portfolio from './Components/Portfolio/Portfolio'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './Components/NavBar';
 // import AboutCard from './Components/AboutCard';
