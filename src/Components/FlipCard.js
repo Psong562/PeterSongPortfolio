@@ -14,8 +14,8 @@ const FlipCardCard = () => {
       <Row>
         <Col md={5} className="cardPadding">
           <Flippy
-            flipOnHover={false} // default false
-            flipOnClick={true} // default false
+            flipOnHover={true} // default false
+            flipOnClick={false} // default false
             flipDirection="horizontal" // horizontal or vertical
             // ref={(r) => this.flippy = r} // to use toggle method like this.flippy.toggle()
             // // if you pass isFlipped prop component will be controlled component.
