@@ -1,6 +1,4 @@
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
-import projectOne from "../Assets/projectOne.png"
-// import projectTwo from "../Assets/projectTwo.png"
 import { Container, Row, Col } from "react-bootstrap"
 import "../App.css"
 
