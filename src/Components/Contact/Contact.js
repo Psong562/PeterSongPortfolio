@@ -10,7 +10,11 @@ event.preventDefault();
     emailjs.sendForm('service_w2w3dmc', 'template_g8mtfy5', event.target, 'user_BlV08b3TJRwTporhUvp5a')
     .then(res=>{
      console.log(res);
-     
+    //  alert('Email sent')
+      setEmailState({
+        // disabled: true,
+        emailSent: true
+      })
     
    }).catch(err=> console.log(err));
  }
