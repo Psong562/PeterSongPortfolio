@@ -3,11 +3,12 @@ import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import Container from "react-bootstrap/Container"
 import {Link} from 'react-router-dom'
+import "../App.css"
 
 
 const NavBar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="navBar" expand="lg">
       <Container>
         <Navbar.Brand 
           as={Link}

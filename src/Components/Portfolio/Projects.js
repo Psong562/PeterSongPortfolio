@@ -6,7 +6,7 @@ import { Card } from "react-bootstrap"
 import '../../portfolio.css'
 import projectOne from "../../Assets/projectOne.png"
 import projectTwo from "../../Assets/projectTwo.png"
-
+import { AiFillGithub } from "react-icons/ai";
 
 
 // import PortfolioCard from "./PortfolioCard"
@@ -36,6 +36,16 @@ const Projects = () => {
             <h4>Pokemon API, Joke API,  HTML, Javascript, Materialize</h4>
             <br />
             <h4> Heroku Icon/Computer Icon and Github Icon with links</h4>
+            
+            <a
+              href="https://github.com/psong562"
+              style={{ color: "white" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillGithub />
+            </a>
+            
             </Col>
           </Row>
           <hr />
@@ -58,6 +68,14 @@ const Projects = () => {
             <h4>AniList API, Passport.js, Node.js, Express, JWT Authentication, MYSQL, HTML, Javascript, Metro4</h4>
             <br />
             <h4> Heroku Icon/Computer Icon and Github Icon with links</h4>
+            <a
+              href="https://github.com/psong562"
+              style={{ color: "white" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillGithub />
+            </a>
             </Col>
           </Row>
         
