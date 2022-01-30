@@ -2,8 +2,20 @@ import { useState } from 'react'
 import { Form, Button, Container, Row, Col } from 'react-bootstrap'
 import "../../App.css"
 import ContactCard from './ContactCard'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const handleSubmitEmail = event =>{
+event.preventDefault();
+    emailjs.sendForm('service_w2w3dmc', 'template_g8mtfy5', event.target, 'user_BlV08b3TJRwTporhUvp5a')
+    .then(res=>{
+     console.log(res);
+     
+    
+   }).catch(err=> console.log(err));
+ }
+
+
     const [emailState, setEmailState] = useState({
       name: '',
       email: '',
@@ -14,23 +26,23 @@ const Contact = () => {
 
    const handleInputChange = ({ target: { name, value } }) => setEmailState({ ...emailState, [name]: value })
 
-    const handleSubmitEmail = event => {
-      event.preventDefault()
-      // UserAPI.register({
-      //   name: emailState.name,
-      //   email: emailState.email,
-      //   username: emailState.username,
-      //   password: emailState.password
-      // })
-      setEmailState ({
-        disabled: true,
-      })
+    // const handleSubmitEmail = event => {
+    //   event.preventDefault()
+    //   // UserAPI.register({
+    //   //   name: emailState.name,
+    //   //   email: emailState.email,
+    //   //   username: emailState.username,
+    //   //   password: emailState.password
+    //   // })
+    //   setEmailState ({
+    //     disabled: true,
+    //   })
 
-        .then(() => {
-          alert('User Registered! Please Log In!')
-          setEmailState({ ...emailState, name: '', email: '', username: '', password: '' })
-        })
-    }
+    //     .then(() => {
+    //       alert('User Registered! Please Log In!')
+    //       setEmailState({ ...emailState, name: '', email: '', username: '', password: '' })
+    //     })
+    // }
 
   //   emailState.handleLoginUser = event => {
   //     event.preventDefault()
@@ -55,40 +67,43 @@ const Contact = () => {
         <Col md={{ span: 6, offset: 3 }}>
 
           <Form onSubmit={handleSubmitEmail}>
-            <Form.Group className="mb-3" controlId="Name">
-              <Form.Label>Full-Name</Form.Label>
+            <Form.Group className="mb-3" controlId="name">
+              <Form.Label>Full-name</Form.Label>
               <Form.Control
-                type="Name"
-                placeholder="Full-Name"
-                value={emailState.Name}
+                name="name"
+                type="name"
+                placeholder="Full-name"
+                value={emailState.name}
                 onChange={handleInputChange} 
               />
             </Form.Group>
 
 
-            <Form.Group className="mb-3" controlId="Email">
+            <Form.Group className="mb-3" controlId="email">
               <Form.Label>Email</Form.Label>
               <Form.Control
-                type="Email"
-                placeholder="Email"
-                value={emailState.Email}
+                name="email"
+                type="email"
+                placeholder="email"
+                value={emailState.email}
                 onChange={handleInputChange} 
                 />
             </Form.Group>
 
 
-            <Form.Group className="mb-3" controlId="Message" >
+            <Form.Group className="mb-3" controlId="message" >
               <Form.Label>Message</Form.Label>
               <Form.Control
-                type="Message"
-                placeholder="Message"
-                value={emailState.Message}
+                name="message"
+                type="message"
+                placeholder="message"
+                value={emailState.message}
                 onChange={handleInputChange}
                 as="textarea" rows={5} 
                 />
             </Form.Group>
 
-            <Button variant="primary" type="submit" disabled ={emailState.disabled}>
+              <Button variant="primary" type="submit" disabled={emailState.disabled} style={{ backgroundColor: '#175852' }}>
               Submit
             </Button>
 
