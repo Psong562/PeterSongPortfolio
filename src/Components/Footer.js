@@ -11,7 +11,7 @@ function Footer() {
   return (
  
     <Card className="footer">
-<Container>
+<Container fluid>
   <Row >
 <Col md={5}>
       <Card.Body>Designed and Developed by Peter Song</Card.Body>

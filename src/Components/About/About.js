@@ -1,9 +1,10 @@
 import React from 'react';
 // import NavBar from './Components/NavBar';
 import AboutCard from './AboutCard';
-import Headshot from './HeadShot';
+
 import {useEffect, useState } from 'react'
 import LoadingPage from './LoadingPage';
+import AboutFlip from './AboutFlip';
 
 const About = () => {
 
@@ -22,7 +23,7 @@ const About = () => {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
 
       <AboutCard />
-      <Headshot />
+      <AboutFlip />
       </div>
     </>
     

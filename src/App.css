@@ -87,3 +87,24 @@
   margin-top: 100px;
 }
 
+
+.caps {
+  color: #DCC2A7 !important;
+  text-decoration: underline !important;
+}
+
+.backsideCard {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .portCard {
+    width:400px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .portCard {
+    width:300px !important;
+  }
+}

@@ -1,6 +1,6 @@
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import { Container, Row, Col } from "react-bootstrap"
-import "../App.css"
+import "../../App.css"
 import { AiFillGithub } from "react-icons/ai";
 import { SiHeroku } from "react-icons/si";
 
@@ -22,6 +22,7 @@ const FlipCardCard = () => {
             // // if you pass isFlipped prop component will be controlled component.
             // // and other props, which will go to div
             style={{ width: '500px', height: '300px' }} /// these are optional style, it is not necessary
+            className="portCard"
           >
             <FrontSide
               className="safariZone"
@@ -50,7 +51,7 @@ const FlipCardCard = () => {
           </Flippy>
 
         </Col>
-        <Col md={{ span: 5, offset: 2 }} className="cardPadding">
+        <Col  md={{ span: 5, offset: 2 }} className="cardPadding">
           <Flippy
             flipOnHover={true} // default false
             flipOnClick={false} // default false
@@ -59,6 +60,7 @@ const FlipCardCard = () => {
             // // if you pass isFlipped prop component will be controlled component.
             // // and other props, which will go to div
             style={{ width: '500px', height: '300px' }} /// these are optional style, it is not necessary
+            className="portCard"
           >
             <FrontSide
               className="animeArchive"

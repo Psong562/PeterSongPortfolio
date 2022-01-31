@@ -9,7 +9,7 @@ import "../App.css"
 const NavBar = () => {
   return (
     <Navbar className="navBar" expand="lg">
-      <Container>
+      <Container fluid>
         <Navbar.Brand 
           as={Link}
           to="/">Peter Song</Navbar.Brand>
