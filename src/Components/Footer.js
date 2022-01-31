@@ -9,20 +9,19 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
- 
+
     <Card className="footer">
-<Container fluid>
-  <Row >
-<Col md={5}>
-      <Card.Body>Designed and Developed by Peter Song</Card.Body>
-</Col>
-<Col md={5}>
+      <Container fluid>
+        <Row >
+          <Col md={5}>
+            <Card.Body>Designed and Developed by Peter Song</Card.Body>
+          </Col>
+          <Col md={5}>
             <Card.Body>Copyright © {year} PS</Card.Body>
-</Col>
-<Col md={2}>
-      <Card.Body>
-              {/* <button href="https://github.com/psong562">  <AiFillGithub /></button>
-              <button href="linkedin.com/in/peter-song-06010974">  <FaLinkedinIn /></button> */}
+          </Col>
+          <Col md={2}>
+            <Card.Body>
+
               <p className="social-icons">
                 <a
                   href="https://github.com/psong562"
@@ -42,14 +41,14 @@ function Footer() {
                   <FaLinkedinIn />
                 </a>
               </p>
-              
-            
 
-              
-      </Card.Body>
-</Col>
-  </Row>
-</Container>
+
+
+
+            </Card.Body>
+          </Col>
+        </Row>
+      </Container>
     </Card>
 
   );

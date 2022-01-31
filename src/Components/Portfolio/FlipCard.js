@@ -15,13 +15,11 @@ const FlipCardCard = () => {
       <Row>
         <Col md={5} className="cardPadding">
           <Flippy
-            flipOnHover={false} // default false
-            flipOnClick={true} // default false
+            flipOnHover={true} // default false
+            flipOnClick={false} // default false
             flipDirection="horizontal" // horizontal or vertical
-            // ref={(r) => this.flippy = r} // to use toggle method like this.flippy.toggle()
-            // // if you pass isFlipped prop component will be controlled component.
-            // // and other props, which will go to div
-            style={{ width: '500px', height: '300px' }} /// these are optional style, it is not necessary
+
+            style={{ width: '500px', height: '300px' }}
             className="portCard"
           >
             <FrontSide
@@ -37,29 +35,27 @@ const FlipCardCard = () => {
               <br />
               <h6>Pokemon API, Joke API,  HTML, Javascript, Materialize</h6>
               <br />
-              
+
               <a
                 href="https://github.com/Psong562/SafariZone"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
-                
+
               >
-                <AiFillGithub size={40}/>
+                <AiFillGithub size={40} />
               </a>
             </BackSide>
           </Flippy>
 
         </Col>
-        <Col  md={{ span: 5, offset: 2 }} className="cardPadding">
+        <Col md={{ span: 5, offset: 2 }} className="cardPadding">
           <Flippy
             flipOnHover={true} // default false
             flipOnClick={false} // default false
             flipDirection="horizontal" // horizontal or vertical
-            // ref={(r) => this.flippy = r} // to use toggle method like this.flippy.toggle()
-            // // if you pass isFlipped prop component will be controlled component.
-            // // and other props, which will go to div
-            style={{ width: '500px', height: '300px' }} /// these are optional style, it is not necessary
+
+            style={{ width: '500px', height: '300px' }}
             className="portCard"
           >
             <FrontSide
@@ -75,7 +71,7 @@ const FlipCardCard = () => {
               <br />
               <h6>AniList API, Passport.js, Node.js, Express, JWT Authentication, MYSQL, HTML, Javascript, Metro4</h6>
               <br />
-              
+
               <a
                 href="https://github.com/Psong562/anotherAnimeArchive.git"
                 style={{ color: "white" }}
@@ -85,7 +81,7 @@ const FlipCardCard = () => {
               >
                 <AiFillGithub size={40} />
               </a>
-              
+
               <a
                 href="https://anotheranimearchive.herokuapp.com/"
                 style={{ color: "white" }}

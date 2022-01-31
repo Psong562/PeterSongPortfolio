@@ -15,20 +15,20 @@ import { AiFillGithub } from "react-icons/ai";
 const Projects = () => {
   return (
     <>
-  
-        <Container className="projects">
-          <Row>
-          <Col> 
-          <Card>
-          <Card.Img src={projectOne} alt="imgBackground" />
-            <Card.ImgOverlay>
-              <Card.Title>
-              </Card.Title>
 
-            </Card.ImgOverlay>
-          </Card>
+      <Container className="projects">
+        <Row>
+          <Col>
+            <Card>
+              <Card.Img src={projectOne} alt="imgBackground" />
+              <Card.ImgOverlay>
+                <Card.Title>
+                </Card.Title>
+
+              </Card.ImgOverlay>
+            </Card>
           </Col>
-            <Col>
+          <Col>
             <h1>Safari Zone</h1>
             <hr />
             <h4>A website application where you can randomly encounter pokemon and catch them to add to your pokemon. After catching your pokemon you can interact with them and you will get a random Joke, Chuck Norris Joke, or inspiration quote </h4>
@@ -36,7 +36,7 @@ const Projects = () => {
             <h4>Pokemon API, Joke API,  HTML, Javascript, Materialize</h4>
             <br />
             <h4> Heroku Icon/Computer Icon and Github Icon with links</h4>
-            
+
             <a
               href="https://github.com/psong562"
               style={{ color: "white" }}
@@ -45,22 +45,22 @@ const Projects = () => {
             >
               <AiFillGithub />
             </a>
-            
-            </Col>
-          </Row>
-          <hr />
-          <Row>
-          <Col> 
-          <Card>
-          <Card.Img src={projectTwo} alt="imgBackground" />
-            <Card.ImgOverlay>
-              <Card.Title>
-              </Card.Title>
 
-            </Card.ImgOverlay>
-          </Card>
           </Col>
-            <Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col>
+            <Card>
+              <Card.Img src={projectTwo} alt="imgBackground" />
+              <Card.ImgOverlay>
+                <Card.Title>
+                </Card.Title>
+
+              </Card.ImgOverlay>
+            </Card>
+          </Col>
+          <Col>
             <h1>4AnimeArchive</h1>
             <hr />
             <h4>A website that allow you to search for your favorite animes and add them to your profile as you watch them.</h4>
@@ -76,10 +76,10 @@ const Projects = () => {
             >
               <AiFillGithub />
             </a>
-            </Col>
-          </Row>
-        
-        </Container>
+          </Col>
+        </Row>
+
+      </Container>
     </>
   )
 }

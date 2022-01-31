@@ -2,7 +2,7 @@ import React from 'react';
 // import NavBar from './Components/NavBar';
 import AboutCard from './AboutCard';
 
-import {useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import LoadingPage from './LoadingPage';
 import AboutFlip from './AboutFlip';
 
@@ -19,14 +19,14 @@ const About = () => {
   }, []);
   return (
     <>
-      <LoadingPage load={load}/>
+      <LoadingPage load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
 
-      <AboutCard />
-      <AboutFlip />
+        <AboutCard />
+        <AboutFlip />
       </div>
     </>
-    
+
   )
 }
 

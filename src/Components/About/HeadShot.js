@@ -16,15 +16,6 @@ const Headshot = () => {
 
             </Card.ImgOverlay>
           </Card>
-        {/* <Figure>
-          <Figure.Image
-            className="rounded-circle "
-            // width={250}
-            // height={150}
-            alt="171x180"
-            src={avatar}
-            />
-        </Figure> */}
       </Col>
       <Col>
 

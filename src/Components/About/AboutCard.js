@@ -9,19 +9,19 @@ import Type from "../Type.js"
 const AboutCard = () => {
   return (
     <Card className="text-white">
-      <Card.Img src={imgBackground} alt="imgBackground"/>
+      <Card.Img src={imgBackground} alt="imgBackground" />
       <Card.ImgOverlay>
         <Card.Title><h1>Hello</h1></Card.Title>
         <Card.Text>
           <h2>
-          <Type />
+            <Type />
           </h2>
         </Card.Text>
-        
+
       </Card.ImgOverlay>
     </Card>
 
-  
+
 
   )
 }
