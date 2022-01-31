@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/css/main.40d54f01.css",
+    "main.js": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/js/main.71d1b287.js",
+    "static/js/787.e29dc422.chunk.js": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/js/787.e29dc422.chunk.js",
+    "static/media/port1.png": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/media/port1.eb14dda016a6089573f3.png",
+    "static/media/projectOne.png": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/media/projectOne.4241edf7f8fdbaff2f8c.png",
+    "static/media/pc2.png": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/media/pc2.280728898cb51cfb2ccf.png",
+    "static/media/projectTwo.png": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/media/projectTwo.2067cc7075fbda2fb6ff.png",
+    "static/media/loading2.gif": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/media/loading2.0c4850faf1dacb1264be.gif",
+    "static/media/Resume2020.pdf": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/media/Resume2020.8996d6e120808567a7bc.pdf",
+    "static/media/headshot3.png": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/media/headshot3.e609b2a3c547070a6f1c.png",
+    "static/media/letsTalk.png": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/media/letsTalk.04932b12e946d7264bd8.png",
+    "index.html": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/index.html",
+    "main.40d54f01.css.map": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/css/main.40d54f01.css.map",
+    "main.71d1b287.js.map": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/js/main.71d1b287.js.map",
+    "787.e29dc422.chunk.js.map": "/%20//%7Busername%7D.github.io/PeterSongPortfolio/static/js/787.e29dc422.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40d54f01.css",
+    "static/js/main.71d1b287.js"
+  ]
+}
