@@ -1,3 +1,27 @@
+#portTitle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 100px;
+}
+
+.projects {
+  margin-top: 50px
+}
+
+
+.contactTitle {
+  /* position: absolute; */
+  bottom: 0;
+
+  justify-content: center;
+  align-items: flex-end;
+
+
+  font-size: 100px;
+}
+
+
 /* Contact Page */
 .success-msg {
   color: green;
@@ -100,11 +124,12 @@
 
 @media only screen and (max-width: 1000px) {
   .portCard {
-    width:400px !important;
+    width: 400px !important;
   }
 }
+
 @media only screen and (max-width: 400px) {
   .portCard {
-    width:300px !important;
+    width: 300px !important;
   }
 }

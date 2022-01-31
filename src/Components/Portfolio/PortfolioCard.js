@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from "react-bootstrap/Card"
 import imgBackground from "../../Assets/port1.png"
-import '../../portfolio.css'
+import '../../App.css'
 
 
 

@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { MdSportsFootball } from "react-icons/md";
 import { GiBowlingStrike, GiMountainClimbing } from "react-icons/gi";
 import { CgGames } from "react-icons/cg";
-
+import "../../App.css"
 import headshotImg from "../../Assets/headshot3.png"
 
 
