@@ -1,7 +1,7 @@
 {
   "name": "reactportfolio",
   "version": "0.1.0",
-  "homepage": "https: //psong562.github.io/PeterSongPortfolio",
+  "homepage": "https://psong562.github.io/PeterSongPortfolio",
   "private": true,
   "dependencies": {
     "@mui/icons-material": "^5.3.0",
