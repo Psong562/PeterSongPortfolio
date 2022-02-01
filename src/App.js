@@ -12,17 +12,36 @@ import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 // import AboutCard from './Components/AboutCard';
 
+import LoadingPage from './Components/About/LoadingPage';
+import { useEffect, useState} from 'react';
+
 
 const App = () => {
+
+  const [load, upadateLoad] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 2500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <Router>
+      <LoadingPage load={load} id={load ? "no-scroll" : "scroll"}/>
     <div>
       <NavBar />
-      <Routes>
+
+      <About />
+      <Portfolio />
+      <Contact />
+      {/* <Routes>
         <Route path='/' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/portfolio' element={<Portfolio />} />
-      </Routes>
+      </Routes> */}
       <Footer />
     </div>
     </Router>

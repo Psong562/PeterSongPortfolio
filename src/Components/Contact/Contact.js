@@ -62,9 +62,11 @@ const Contact = () => {
 
 
   return (
-    <>
-      <ContactCard />
-      <br />
+    <section className='sections'>
+      {/* <ContactCard />
+      <br /> */}
+
+      <h1 className='text-center'> Let's Connect!</h1>
       <Container fluid className="contactForm m-auto">
         <Row>
 
@@ -118,7 +120,7 @@ const Contact = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </section>
   )
 
 }

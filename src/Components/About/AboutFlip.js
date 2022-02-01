@@ -44,9 +44,12 @@ const AboutFlip = () => {
                   </Col>
                   <Col>
                     <br />
+                    <br />
                     <h1 className='text-center'> Let me <bold className="caps">INTRODUCE</bold> myself</h1>
                     <br />
+                    <br />
                     <h4>I graduated from California State University of Long Beach with a Bachelors of Science in Biochemistry. Although i loved sciend, programming allowed me to express myself to a higher degree.</h4>
+                    <br />
                     <br />
                     <h4>I am new to programming so I'm looking to learn and grow as much as I can in any way possible</h4>
                   </Col>
@@ -55,18 +58,28 @@ const AboutFlip = () => {
 
             </FrontSide>
             <BackSide
-
+              className="text-center"
               style={{ backgroundColor: '#175852' }}>
               <h1 className="backsideCard" >Getting to <bold className="caps">KNOW</bold> me! </h1>
               <br />
-              <h4>My current <bold className="caps">HOBBIES</bold> are:
+              <br />
+              <h4>Other than coding and programing my current <bold className="caps">HOBBIES</bold> are:
+                <br />
+                <br />
                 <ul>
-                  <li><CgGames /> Video Games</li>
-                  <li><GiMountainClimbing /> Rock Climbing</li>
-                  <li><GiBowlingStrike /> Bowling</li>
-                  <li> <MdSportsFootball /> Football... go EAGLES. Fly eagles fly!</li>
+                  <ul><CgGames /> Video Games</ul>
+                  <ul><GiMountainClimbing /> Rock Climbing</ul>
+                  <ul><GiBowlingStrike /> Bowling</ul>
+                  <ul> <MdSportsFootball /> Football... go EAGLES. Fly eagles fly!</ul>
                 </ul>
               </h4>
+              <br />
+              <br />
+              <h4>"The future belongs to those who believe in the beauty of their dreams."
+              </h4>
+              <h6>
+                - Shoyo Hinata.
+              </h6>
               <br />
 
               <a

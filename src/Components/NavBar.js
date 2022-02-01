@@ -8,7 +8,7 @@ import "../App.css"
 
 const NavBar = () => {
   return (
-    <Navbar className="navBar" expand="lg">
+    <Navbar id="navBar" expand="lg">
       <Container fluid>
         <Navbar.Brand 
           as={Link}
