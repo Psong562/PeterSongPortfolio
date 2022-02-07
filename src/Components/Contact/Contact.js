@@ -90,7 +90,7 @@ const Contact = () => {
                 <Form.Control
                   name="email"
                   type="email"
-                  placeholder="email"
+                  placeholder="Email"
                   value={emailState.email}
                   onChange={handleInputChange}
                 />
@@ -102,7 +102,7 @@ const Contact = () => {
                 <Form.Control
                   name="message"
                   type="message"
-                  placeholder="message"
+                  placeholder="Message"
                   value={emailState.message}
                   onChange={handleInputChange}
                   as="textarea" rows={5}

@@ -1,5 +1,5 @@
 import React from "react"
-import FlipCardCard from "./FlipCard"
+// import FlipCardCard from "./FlipCard"
 import Resume from "./Resume"
 import "../../App.css"
 import ProjectComponent1 from "./ProjectComponent1"
