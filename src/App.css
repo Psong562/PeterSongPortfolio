@@ -44,7 +44,7 @@ body {
 
 /* Portfolio Page */
 .safariZone {
-  background-image: url('./Assets/projectOne.png') !important;
+  background-image: url('./Assets/safariZone.png') !important;
   background-size: 100%;
   background-repeat: no-repeat;
   object-fit: scale-down;
@@ -55,7 +55,17 @@ body {
 }
 
 .animeArchive {
-  background-image: url('./Assets/projectTwo.png') !important;
+  background-image: url('./Assets/animeArchive.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  /* opacity: 60%; */
+
+  outline: 5px solid white;
+  outline-offset: -10px;
+}
+.studyRoom32 {
+  background-image: url('./Assets/studyRoom32.png') !important;
   background-size: 100%;
   background-repeat: no-repeat;
   object-fit: contain;

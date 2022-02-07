@@ -30,7 +30,7 @@ const AboutFlip = () => {
             <FrontSide style={{ backgroundColor: '#175852' }} >
               <Container>
                 <Row>
-                  <Col>
+                  <Col xs={12} md={6}>
                     <Figure>
                       <Figure.Image
                         // width={250}
@@ -42,7 +42,7 @@ const AboutFlip = () => {
 
                     </Figure>
                   </Col>
-                  <Col>
+                  <Col xs={12} md={6}>
                     <br />
                     <br />
                     <h1 className='text-center'> Let me <bold className="caps">INTRODUCE</bold> myself</h1>

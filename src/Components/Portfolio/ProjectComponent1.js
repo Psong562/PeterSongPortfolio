@@ -8,7 +8,7 @@ import { SiHeroku } from "react-icons/si";
 
 import React from 'react';
 
-const ProjectComponent = ({projectCSS, projectName, projectDescription, projectTools, githubLink, herokuLink}) => {
+const ProjectComponent1 = ({projectCSS, projectName, projectDescription, projectTools, githubLink, herokuLink}) => {
   return (
 
     <Container className="projects">
@@ -28,7 +28,7 @@ const ProjectComponent = ({projectCSS, projectName, projectDescription, projectT
               <div className="projCard">
                 <h1 className="projText">{projectName}</h1>
               </div>
-            </FrontSide>
+            </FrontSide>  
             <BackSide
               style={{ backgroundColor: '#175852' }}>
               <h6>{projectDescription}</h6>
@@ -67,4 +67,4 @@ const ProjectComponent = ({projectCSS, projectName, projectDescription, projectT
   )
 }
 
-export default ProjectComponent;
+export default ProjectComponent1;
