@@ -62,7 +62,7 @@ const Contact = () => {
 
 
   return (
-    <section className='sections'>
+    <section className='sections' id='Contact'>
       {/* <ContactCard />
       <br /> */}
 

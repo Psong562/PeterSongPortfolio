@@ -22,8 +22,6 @@ const AboutCard = () => {
       </Card.ImgOverlay>
     </Card>
 
-
-
   )
 }
 
