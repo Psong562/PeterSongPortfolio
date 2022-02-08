@@ -2,7 +2,6 @@ import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import { Container, Row, Col, Figure } from "react-bootstrap"
 import "../../App.css"
 import { AiFillGithub } from "react-icons/ai";
-
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdSportsFootball } from "react-icons/md";
 import { GiBowlingStrike, GiMountainClimbing } from "react-icons/gi";
