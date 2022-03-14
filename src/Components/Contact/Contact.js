@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Form, Button, Container, Row, Col } from 'react-bootstrap'
 import "../../App.css"
-import ContactCard from './ContactCard'
+// import ContactCard from './ContactCard'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
@@ -30,41 +30,10 @@ const Contact = () => {
 
   const handleInputChange = ({ target: { name, value } }) => setEmailState({ ...emailState, [name]: value })
 
-  // const handleSubmitEmail = event => {
-  //   event.preventDefault()
-  //   // UserAPI.register({
-  //   //   name: emailState.name,
-  //   //   email: emailState.email,
-  //   //   username: emailState.username,
-  //   //   password: emailState.password
-  //   // })
-  //   setEmailState ({
-  //     disabled: true,
-  //   })
-
-  //     .then(() => {
-  //       alert('User Registered! Please Log In!')
-  //       setEmailState({ ...emailState, name: '', email: '', username: '', password: '' })
-  //     })
-  // }
-
-  //   emailState.handleLoginUser = event => {
-  //     event.preventDefault()
-  //     UserAPI.login({
-  //       username: emailState.lUsername,
-  //       password: emailState.lPassword
-  //     })
-  //       .then(token => {
-  //         localStorage.setItem('user', token)
-  //         setEmailState({ ...emailState, lUsername: '', lPassword: '' })
-  //         window.location = '/'
-  //       })
 
 
   return (
     <section className='sections' id='Contact'>
-      {/* <ContactCard />
-      <br /> */}
 
       <h1 className='text-center'> Let's Connect!</h1>
       <Container fluid className="contactForm m-auto">

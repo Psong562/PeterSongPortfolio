@@ -10,7 +10,6 @@ import Portfolio from './Components/Portfolio/Portfolio'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
-// import AboutCard from './Components/AboutCard';
 
 import LoadingPage from './Components/About/LoadingPage';
 import { useEffect, useState} from 'react';

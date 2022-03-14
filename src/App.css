@@ -43,16 +43,6 @@ body {
 }
 
 /* Portfolio Page */
-.safariZone {
-  background-image: url('./Assets/safariZone.png') !important;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  object-fit: scale-down;
-  /* opacity: 60%; */
-
-  outline: 5px solid white;
-  outline-offset: -10px;
-}
 
 .animeArchive {
   background-image: url('./Assets/animeArchive.png') !important;
@@ -64,6 +54,7 @@ body {
   outline: 5px solid white;
   outline-offset: -10px;
 }
+
 .studyRoom32 {
   background-image: url('./Assets/studyRoom32.png') !important;
   background-size: 100%;
@@ -74,6 +65,28 @@ body {
   outline: 5px solid white;
   outline-offset: -10px;
 }
+
+.safariZone {
+  background-image: url('./Assets/safariZone.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: scale-down;
+  /* opacity: 60%; */
+
+  outline: 5px solid white;
+  outline-offset: -10px;
+}
+
+.socialAPI {
+  background-image: url('./Assets/postMan2.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: scale-down;
+  outline: 5px solid #F3EDE2;
+  outline-offset: -10px;
+  color: #F3EDE2 !important;
+}
+
 
 .projCard {
   position: absolute;

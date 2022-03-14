@@ -36,6 +36,7 @@ const ProjectComponent2 = ({ projectCSS, projectName, projectDescription, projec
               <br />
               <h6>{projectTools}</h6>
               <br />
+              <h6>Active Links</h6>
 
               <a
                 href={githubLink}

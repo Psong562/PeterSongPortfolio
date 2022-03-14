@@ -35,7 +35,7 @@ const ProjectComponent1 = ({projectCSS, projectName, projectDescription, project
               <br />
               <h6>{projectTools}</h6>
               <br />
-              
+              <h6> Active links</h6>
               <a
                 href={githubLink}
                 style={{ color: "white" }}

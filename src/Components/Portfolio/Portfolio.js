@@ -18,13 +18,14 @@ const Portfolio = () => {
         <Row >
 
           <Col md={5}>
-            <ProjectComponent2
-              projectCSS={'safariZone'}
-              projectName={'The Safari Zone'}
-              projectDescription={'A website application where you can randomly encounter pokemon and catch them to add to your pokedex. After catching your pokemon you can interact with them and the pokemon will return a random Joke, Chuck Norris Joke, or inspiration quote'}
-              projectTools={'Pokemon API, Joke API,  HTML, Javascript, Materialize'}
-              githubLink={'https://github.com/Psong562/SafariZone'}
-              githubPages={'https://psong562.github.io/SafariZone'}
+
+            <ProjectComponent1
+              projectCSS={'studyRoom32'}
+              projectName={'StudyRoom32'}
+              projectDescription={'A website application geared towards studying with lofi music. Ability to toggle ambient music with volume control.User can create notes using Quill/SocketIO for real time note-taking/messaging.'}
+              projectTools={'Mongodb, Express, React, NodeJS, Passport, JWT Authentication,  Javascript, SocketIO, Quill, React Boostrap, Framer Motion'}
+              githubLink={'https://github.com/Psong562/lofiStudyRoom'}
+              herokuLink={'https://studyroom32.herokuapp.com/'}
             />
           </Col>
           <Col md={{ span: 5, offset: 2 }}>
@@ -42,16 +43,26 @@ const Portfolio = () => {
       <Container  >
         <Row className="justify-content-center" >
           <Col md={5}>
-
-            <ProjectComponent1
-              projectCSS={'studyRoom32'}
-              projectName={'StudyRoom32'}
-              projectDescription={'A website application geared towards studying with lofi music. In this application you can play music with the ability to toggle ambient music(with volume control). The user also has the ability to create notes and save their notes to their profile to access them at a later date. Fidget-cons is a feature added to help user study for those who cant stay still'}
-              projectTools={'Mongodb, Express, React, NodeJS, Passport, JWT Authentication,  Javascript, SocketIO, Quill, React Boostrap, Framer Motion'} 
-              githubLink={'https://github.com/Psong562/lofiStudyRoom'}
-              herokuLink={'https://studyroom32.herokuapp.com/'}
+            <ProjectComponent2
+              projectCSS={'safariZone'}
+              projectName={'The Safari Zone'}
+              projectDescription={'A website application where you can randomly encounter pokemon and catch them to add to your pokedex. After catching your pokemon you can interact with them and the pokemon will return a random Joke, Chuck Norris Joke, or inspiration quote'}
+              projectTools={'Pokemon API, Joke API,  HTML, Javascript, Materialize'}
+              githubLink={'https://github.com/Psong562/SafariZone'}
+              githubPages={'https://psong562.github.io/SafariZone'}
             />
           </Col>
+          <Col md={{ span: 5, offset: 2 }}>
+            <ProjectComponent2
+              projectCSS={'socialAPI'}
+              projectName={'SocialAPI'}
+              projectDescription={'Application to showcase backend capability using Express and MySQL2. Using Postman to test all routes( GET, POST, PUT and DELETE'}
+              projectTools={'Dotenv, Express, JSONwebtoken, MySQL2, Passport, passport-jwt, passport-local-mongoose, mongoose'}
+              githubLink={'https://github.com/Psong562/socialApi'}
+              githubPages={'https://drive.google.com/file/d/1BcZVSYefwEo5bYbX1maYO76q5IaPkde3/view'}
+            />
+          </Col>
+          
           
         </Row>
       </Container>
