@@ -2,13 +2,14 @@ import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import { Container, Row, Col } from "react-bootstrap"
 import "../../App.css"
 import { AiFillGithub } from "react-icons/ai";
+import { MdWebAsset } from "react-icons/md";
 
 
 
 
 import React from 'react';
 
-const ProjectComponent2 = ({ projectCSS, projectName, projectDescription, projectTools, githubLink }) => {
+const ProjectComponent2 = ({ projectCSS, projectName, projectDescription, projectTools, githubLink, githubPages }) => {
   return (
 
     <Container className="projects">
@@ -43,6 +44,14 @@ const ProjectComponent2 = ({ projectCSS, projectName, projectDescription, projec
                 rel="noopener noreferrer"
               >
                 <AiFillGithub size={40} />
+              </a>
+              <a
+                href={githubPages}
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MdWebAsset size={40} />
               </a>
             </BackSide>
           </Flippy>
