@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PeterSongPortfolio/static/css/main.d4232ec5.css",
+    "main.js": "/PeterSongPortfolio/static/js/main.c14e15f5.js",
+    "static/js/787.e29dc422.chunk.js": "/PeterSongPortfolio/static/js/787.e29dc422.chunk.js",
+    "static/media/studyRoom32.png": "/PeterSongPortfolio/static/media/studyRoom32.ea8f0f855b4660afc17f.png",
+    "static/media/safariZone.png": "/PeterSongPortfolio/static/media/safariZone.4241edf7f8fdbaff2f8c.png",
+    "static/media/pc2.png": "/PeterSongPortfolio/static/media/pc2.280728898cb51cfb2ccf.png",
+    "static/media/animeArchive.png": "/PeterSongPortfolio/static/media/animeArchive.2067cc7075fbda2fb6ff.png",
+    "static/media/loading2.gif": "/PeterSongPortfolio/static/media/loading2.0c4850faf1dacb1264be.gif",
+    "static/media/Resume-2022.pdf": "/PeterSongPortfolio/static/media/Resume-2022.cfad4a7121418e854c1e.pdf",
+    "static/media/headshot3.png": "/PeterSongPortfolio/static/media/headshot3.e609b2a3c547070a6f1c.png",
+    "static/media/postMan2.png": "/PeterSongPortfolio/static/media/postMan2.14a7e7e42d62b814f4fd.png",
+    "index.html": "/PeterSongPortfolio/index.html",
+    "main.d4232ec5.css.map": "/PeterSongPortfolio/static/css/main.d4232ec5.css.map",
+    "main.c14e15f5.js.map": "/PeterSongPortfolio/static/js/main.c14e15f5.js.map",
+    "787.e29dc422.chunk.js.map": "/PeterSongPortfolio/static/js/787.e29dc422.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4232ec5.css",
+    "static/js/main.c14e15f5.js"
+  ]
+}
