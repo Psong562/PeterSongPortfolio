@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsFillCloudDownloadFill } from 'react-icons/bs'
-import pdf from '../../Assets/Resume-2022.pdf'
+import pdf from '../../Assets/Resume2022.pdf'
 import { Container, Row , Col, Button } from 'react-bootstrap';
 import '../../App.css'
 
